@@ -5,6 +5,8 @@ namespace Eigenschappen
     {
         // Definieer een statische eigenschap "Volgnummer" met expliciete get en set accessors
         public static int Volgnummer { get { volgnummer++; return volgnummer; } set { volgnummer = value; } }
+        
+        // We laten de Id automatisch genereren
         public int Id { get; set; }
         public string Naam { get; set; }
         public string Opleiding { get; set; }
